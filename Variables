@@ -1,0 +1,20 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+
+
+    int number_dogs= 6;
+    int numberCats= 9;
+    int numberAnimals= number_dogs + numberCats;
+    cout << "Number Of Dogs: " << number_dogs << endl;
+    cout << "Number Of Cats: " << numberCats << endl;
+    cout << "Total: " << numberAnimals << endl;
+    cout << "New dog acquired!" << endl;
+    number_dogs = number_dogs + 1;
+    cout << "New number of dogs: " << number_dogs << endl;
+    cout << "Total: " << number_dogs + numberCats << endl;
+    return 0;
+}
